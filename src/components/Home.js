@@ -9,16 +9,10 @@ function Home() {
     
     return (
     <div>
-      {auth.auth ? 
-        <div>
             Welcome to home page
             <Link to="/posts">Posts</Link>
             <Link to="/albums">Albums</Link>
             <Link to="/todos">Todos</Link>
-        </div> 
-        :
-        <LoginPage />
-    }
     </div>
   )
 }
