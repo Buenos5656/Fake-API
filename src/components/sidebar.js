@@ -25,7 +25,7 @@ function Sidebar() {
             </div>
             <ul>
                 <li>
-                    <Link to="/home" class="active" replace>
+                    <Link to="/" class="active" replace>
                         <span class="icon"><i class="fas fa-home"></i></span>
                         <span class="item">Home</span>
                     </Link>
